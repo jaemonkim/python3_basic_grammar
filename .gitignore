@@ -1,0 +1,6 @@
+# IGNORE THE DESKTOP FILE
+.DS_Store
+
+# IGNORE ENV DIRECTORY
+.env/
+ 

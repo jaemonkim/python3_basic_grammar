@@ -1,0 +1,11 @@
+libdir=/Users/jinmingyu/HomeCode/python/env31/lib
+includedir=/Users/jinmingyu/HomeCode/python/env31/include
+enginesdir=/Users/jinmingyu/HomeCode/python/env31/lib/engines-3
+modulesdir=/Users/jinmingyu/HomeCode/python/env31/lib/ossl-modules
+
+Name: OpenSSL-libcrypto
+Description: OpenSSL cryptography library
+Version: 3.3.0
+Libs: -L${libdir} -lcrypto
+Libs.private: 
+Cflags: -I${includedir}
